@@ -31,7 +31,6 @@ module.exports = {
       "@semantic-release/git",
       {
         assets: ["package.json"],
-        gitAuthor: "abdirahmanmahamoud <abdirahmanmahamoud@gmail.com>",
         message:
           "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}",
       },
