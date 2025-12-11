@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-app.listen(3000, () => {
+app.listen(9000, () => {
   console.log("Server is running on port 3000");
 });
 
@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("youtube", (req, res) => {
+app.get("/youtube", (req, res) => {
   res.json({
     message: "youtube is the best",
     channel: [
