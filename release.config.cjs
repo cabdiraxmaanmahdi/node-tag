@@ -17,9 +17,9 @@ module.exports = {
       {
         preset: "conventionalcommits",
         releaseRules: [
-          { type: "feat", release: "patch" }, // feat -> patch
-          { type: "fix", release: "patch" }, // fix  -> patch
-          { release: false }, // commits kale -> no release
+          { type: "feat", release: "patch" },
+          { type: "fix", release: "patch" },
+          { breaking: true, release: "major" },
         ],
       },
     ],
