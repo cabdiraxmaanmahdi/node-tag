@@ -49,6 +49,11 @@ app.get("/youtube", (req, res) => {
         channelHandle: "@OrcDev",
         subscribers: "22.6k",
       },
+      {
+        name: "Zakariye Cabdi",
+        channelHandle: "@ZakariyeCabdi",
+        subscribers: "240k",
+      },
     ],
   });
 });
