@@ -14,6 +14,7 @@ module.exports = {
   plugins: [
     [
       "@semantic-release/commit-analyzer",
+      //   commit analyzer options
       {
         preset: "conventionalcommits",
         releaseRules: [
