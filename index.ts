@@ -9,3 +9,36 @@ app.listen(3000, () => {
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
+
+app.get("youtube", (req, res) => {
+  res.json({
+    message: "youtube is the best",
+    channel: [
+      {
+        name: "HAJI ALI MEDIA",
+        channelHandle: "@hajialimedia",
+        subscribers: "2.69k",
+      },
+      {
+        name: "bein sports",
+        channelHandle: "@beinsports",
+        subscribers: "15.6m",
+      },
+      {
+        name: "GitHub",
+        channelHandle: "@github",
+        subscribers: "567k",
+      },
+      {
+        name: "Abdijaliil Show",
+        channelHandle: "@Abdijaliil",
+        subscribers: "420k",
+      },
+      {
+        name: "Macruuf tech",
+        channelHandle: "@Macruuftech",
+        subscribers: "576",
+      },
+    ],
+  });
+});
