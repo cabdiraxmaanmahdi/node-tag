@@ -39,6 +39,11 @@ app.get("youtube", (req, res) => {
         channelHandle: "@Macruuftech",
         subscribers: "576",
       },
+      {
+        name: "Maxamed Qadar",
+        channelHandle: "@MaxamadqadarMk",
+        subscribers: "2.12m",
+      },
     ],
   });
 });
