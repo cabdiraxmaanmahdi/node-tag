@@ -12,18 +12,26 @@ module.exports = {
   ],
 
   plugins: [
-    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        preset: "conventionalcommits",
+        releaseRules: [
+          { type: "feat", release: "patch" }, // feat -> patch
+          { type: "fix", release: "patch" }, // fix  -> patch
+          { release: false }, // commits kale -> no release
+        ],
+      },
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
+
     [
       "@semantic-release/git",
       {
         assets: ["package.json"],
-        avatar: {
-          name: "abdirahmanmahamoud",
-          email: "abdirahmanmahamoud@gmail.com",
-        },
+        gitAuthor: "abdirahmanmahamoud <abdirahmanmahamoud@gmail.com>",
         message:
           "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}",
       },
