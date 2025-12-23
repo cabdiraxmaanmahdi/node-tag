@@ -23,6 +23,7 @@
     "@semantic-release/release-notes-generator": "^14.1.0",
     "@types/express": "^5.0.6",
     "@types/node": "^25.0.0",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
     "semantic-release": "^25.0.2",
     "ts-node-dev": "^2.0.0"
   }
