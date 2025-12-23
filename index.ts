@@ -1,4 +1,5 @@
 import express from "express";
+import { getPLTeams } from "./api/pl";
 
 const app = express();
 
@@ -9,6 +10,8 @@ app.listen(9000, () => {
 app.get("/", (req, res) => {
   res.send("Hello World on port 9000");
 });
+
+app.get("/pl-teams", getPLTeams);
 
 app.get("/youtube", (req, res) => {
   res.json({
