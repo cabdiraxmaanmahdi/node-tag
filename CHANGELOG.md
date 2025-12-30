@@ -1,3 +1,17 @@
+## [1.4.6-next.2](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.6-next.1...v1.4.6-next.2) (2025-12-30)
+
+
+### Features
+
+* Add initial api.mdx documentation ([c518d40](https://github.com/abdirahmanmahamoud/node-tag/commit/c518d40c74dd9d39646bd452019b941b0f6be014))
+
+## [1.4.6-next.1](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.5...v1.4.6-next.1) (2025-12-30)
+
+
+### Bug Fixes
+
+* Correct spelling errors in install.mdx ([3eeaf8e](https://github.com/abdirahmanmahamoud/node-tag/commit/3eeaf8e738fb0776184100da6eabef22436ba787))
+
 ## [1.4.5](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.4...v1.4.5) (2025-12-30)
 
 
