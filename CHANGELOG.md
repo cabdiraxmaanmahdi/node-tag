@@ -1,3 +1,10 @@
+## [1.4.6-next.2](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.6-next.1...v1.4.6-next.2) (2025-12-30)
+
+
+### Features
+
+* Add initial api.mdx documentation ([c518d40](https://github.com/abdirahmanmahamoud/node-tag/commit/c518d40c74dd9d39646bd452019b941b0f6be014))
+
 ## [1.4.6-next.1](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.5...v1.4.6-next.1) (2025-12-30)
 
 
