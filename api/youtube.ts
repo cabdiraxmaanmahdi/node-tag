@@ -9,14 +9,6 @@ export const getYouTubeChannels = (req: Request, res: Response) => {
         channelHandle: "@hajialimedia",
         subscribers: "2.69k",
       },
-<<<<<<< HEAD
-      {
-        name: "bein sports",
-        channelHandle: "@beinsports",
-        subscribers: "15.6m",
-      },
-=======
->>>>>>> main
     ];
     return res.status(200).json(youtubeChannels);
   } catch (error: any) {
