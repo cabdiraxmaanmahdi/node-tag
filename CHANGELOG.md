@@ -1,3 +1,10 @@
+## [1.4.5-next.2](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.5-next.1...v1.4.5-next.2) (2025-12-30)
+
+
+### Features
+
+* Add AFCON endpoint to provide information about the tournament and participating countries ([1e02c1d](https://github.com/abdirahmanmahamoud/node-tag/commit/1e02c1d2528da810eece4cb74e3c4da2a0a9d0e6))
+
 ## [1.4.5-next.1](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.4...v1.4.5-next.1) (2025-12-30)
 
 
