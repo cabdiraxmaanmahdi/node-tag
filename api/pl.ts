@@ -19,3 +19,51 @@ export const getPLTeams = (req: Request, res: Response) => {
     });
   }
 };
+
+export const plMatches = (req: Request, res: Response) => {
+  try {
+    const matches: any = {
+      message: "Premier League Matches",
+      matches: {
+        "WeekMatch 19": {
+          "Tue 30 Dec 2025": [
+            {
+              HomeTeam: "Bumley",
+              AwayTeam: "Newcastle United",
+              Time: "22:30",
+              Stadium: "Turf Moor",
+            },
+            {
+              HomeTeam: "Chelsea",
+              AwayTeam: "Bornemouth",
+              Time: "22:30",
+              Stadium: "Stamford Bridge",
+            },
+            {
+              HomeTeam: "West Ham United",
+              AwayTeam: "Brighton & Hove Albion",
+              Time: "22:30",
+              Stadium: "London Stadium",
+            },
+            {
+              HomeTeam: "Arsenal",
+              AwayTeam: "Aston Villa",
+              Time: "23:15",
+              Stadium: "Emirates Stadium",
+            },
+            {
+              HomeTeam: "Manchester United",
+              AwayTeam: "Wolverhampton Wanderers",
+              Time: "23:15",
+              Stadium: "Old Trafford",
+            },
+          ],
+        },
+      },
+    };
+  } catch (error: any) {
+    return res.status(500).json({
+      message: error.message,
+    });
+  }
+};
