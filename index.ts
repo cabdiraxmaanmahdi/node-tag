@@ -54,6 +54,11 @@ app.get("/youtube", (req, res) => {
         channelHandle: "@ZakariyeCabdi",
         subscribers: "240k",
       },
+      {
+        name: "Zit Academy",
+        channelHandle: "@ZitAcademy",
+        subscribers: "12k",
+      },
     ],
   });
 });
