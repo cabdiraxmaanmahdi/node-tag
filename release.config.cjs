@@ -27,16 +27,6 @@ module.exports = {
 
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-
-    // // 👇 Contributors halkan
-    // [
-    //   "semantic-release-contributors",
-    //   {
-    //     preset: "github",
-    //     includeBots: false,
-    //     format: "- ![@{login}]({avatarUrl}&s=32) **[@{login}]({profileUrl})**",
-    //   },
-    // ],
     "@semantic-release/github",
 
     [
