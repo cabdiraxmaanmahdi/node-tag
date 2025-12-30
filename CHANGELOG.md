@@ -1,3 +1,10 @@
+## [1.4.6-next.1](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.5...v1.4.6-next.1) (2025-12-30)
+
+
+### Bug Fixes
+
+* Correct spelling errors in install.mdx ([3eeaf8e](https://github.com/abdirahmanmahamoud/node-tag/commit/3eeaf8e738fb0776184100da6eabef22436ba787))
+
 ## [1.4.5](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.4...v1.4.5) (2025-12-30)
 
 
