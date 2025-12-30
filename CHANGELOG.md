@@ -1,3 +1,15 @@
+## [1.4.5](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.4...v1.4.5) (2025-12-30)
+
+
+### Bug Fixes
+
+* Update youtube.ts ([c9124c4](https://github.com/abdirahmanmahamoud/node-tag/commit/c9124c43a0f14751f0fb444fd6e86c7ca412d4e0))
+
+
+### Features
+
+* Add AFCON endpoint to provide information about the tournament and participating countries ([1e02c1d](https://github.com/abdirahmanmahamoud/node-tag/commit/1e02c1d2528da810eece4cb74e3c4da2a0a9d0e6))
+
 ## [1.4.5-next.2](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.5-next.1...v1.4.5-next.2) (2025-12-30)
 
 
