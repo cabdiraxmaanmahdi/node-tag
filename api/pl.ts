@@ -67,3 +67,23 @@ export const plMatches = (req: Request, res: Response) => {
     });
   }
 };
+
+export const plStandings = (req: Request, res: Response) => {
+  try {
+    const standings: any = {
+      message: "Premier League Standings",
+      standings: [
+        { position: "1", team: "Manchester City", points: "38" },
+        { position: "2", team: "Manchester United", points: "37" },
+        { position: "3", team: "Liverpool", points: "34" },
+        { position: "4", team: "Chelsea", points: "31" },
+        { position: "5", team: "Arsenal", points: "30" },
+      ],
+    };
+    return res.status(200).json(standings);
+  } catch (error: any) {
+    return res.status(500).json({
+      message: error.message,
+    });
+  }
+};
