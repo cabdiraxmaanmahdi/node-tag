@@ -9,6 +9,11 @@ export const getYouTubeChannels = (req: Request, res: Response) => {
         channelHandle: "@hajialimedia",
         subscribers: "2.69k",
       },
+       {
+        name: "HAJI",
+        channelHandle: "@hajialimedia",
+        subscribers: "2.69k",
+      },
     ];
     return res.status(200).json(youtubeChannels);
   } catch (error: any) {
