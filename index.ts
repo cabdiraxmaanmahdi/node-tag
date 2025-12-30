@@ -11,6 +11,67 @@ app.get("/", (req, res) => {
   res.send("Hello World on port 9000");
 });
 
+app.get("afcom", (req, res) => {
+  res.json({
+    message: "AFCON is the biggest football tournament in Africa",
+    countries: [
+      "Algeria",
+      "Angola",
+      "Benin",
+      "Botswana",
+      "Burkina Faso",
+      "Burundi",
+      "Cameroon",
+      "Cape Verde",
+      "Central African Republic",
+      "Chad",
+      "Comoros",
+      "Democratic Republic of the Congo",
+      "Djibouti",
+      "Egypt",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Eswatini",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Ivory Coast",
+      "Kenya",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mauritania",
+      "Mauritius",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Niger",
+      "Nigeria",
+      "Rwanda",
+      "Sao Tome and Principe",
+      "Senegal",
+      "Seychelles",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "South Sudan",
+      "Sudan",
+      "Tanzania",
+      "Togo",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe",
+    ],
+  });
+});
+
 app.get("/pl-teams", getPLTeams);
 
 app.get("/youtube", (req, res) => {
