@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.2...v1.4.3) (2025-12-30)
+
+
+### Features
+
+* Add sample YouTube channel data to getYouTubeChannels function ([79f2ea6](https://github.com/abdirahmanmahamoud/node-tag/commit/79f2ea6ed897b6c9fb82f266360f56f5d7de5c04))
+
 ## [1.4.2](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.1...v1.4.2) (2025-12-30)
 
 
