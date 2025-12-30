@@ -1,3 +1,10 @@
+## [1.4.5-next.1](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.4...v1.4.5-next.1) (2025-12-30)
+
+
+### Bug Fixes
+
+* Update youtube.ts ([c9124c4](https://github.com/abdirahmanmahamoud/node-tag/commit/c9124c43a0f14751f0fb444fd6e86c7ca412d4e0))
+
 ## [1.4.4](https://github.com/abdirahmanmahamoud/node-tag/compare/v1.4.3...v1.4.4) (2025-12-30)
 
 
